@@ -1,3 +1,4 @@
+//Make file to build all files
 issue_tracker.exe : main.o login.o issue.o
 	gcc -o issue_tracker.exe main.o login.o issue.o
 main.o:main.c
