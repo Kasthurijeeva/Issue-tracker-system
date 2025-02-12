@@ -338,7 +338,7 @@ void Resolve_Issues(int user_entered_id, char mail_Id[], char user[])
         // Write the updated issue details to the temporary file.
         fprintf(temp_file, "%d,%s,%s,%s,%s,%s,%s,%s\n", id, title, description, priority, status, user_name, date, time);
     }
-
+    //Close file and temp file
     fclose(file);
     fclose(temp_file);
 
