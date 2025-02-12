@@ -26,7 +26,15 @@
 
 4. Run the Application
 
-    ./issue_tracker.exe
+       ./issue_tracker.exe
+
+5. Select option in main menu by entering 1 , 2 or 3
+
+        Main Menu ( Sign Up, Sign In, Exit)
+
+6. After sign In Select option in Issue Menu
+
+        Issue Menu ( Add , List , Edit , Search , Resolve Issue)
 
 ## Usage
 
