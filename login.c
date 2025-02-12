@@ -2,6 +2,7 @@
 #include <string.h>
 #include "login.h"
 
+//Function defintion for login
 int login_credentials(char user_name[], char password[])
 {
     // Open the users.csv file in read mode
